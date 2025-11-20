@@ -17,7 +17,7 @@ export default function Home() {
   const proxyAddress = useProxyWallet(address as `0x${string}`);
 
   return (
-    <div className="p-6 min-h-screen flex flex-col gap-6">
+    <div className="p-6 min-h-screen flex flex-col gap-6 max-w-7xl mx-auto">
       <Header
         pk={pk}
         setPk={setPk}
